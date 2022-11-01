@@ -1,0 +1,26 @@
+@import url(Common.scss);
+
+main{
+    height: 85.8%; 
+}
+
+// recommend_section
+.recommend_section{
+    header{
+        height: 22px; 
+        line-height: 22px; 
+        text-indent: 15px ; 
+        color: #8e9399;
+    }
+    ul{
+        li{
+            height: 54px; 
+            line-height: 54px; 
+            border-top: 1px solid #ebebeb;
+            border-bottom: 1px solid #ebebeb; 
+            text-align: center; 
+            color: #8e9399; 
+            font-size: 14px;
+        }
+    }
+}

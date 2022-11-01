@@ -1,0 +1,26 @@
+// MoreProfile.scss
+@import url(Common.scss);
+// user_info
+.user_info{
+    margin-top: 64px;
+}
+
+// plus_friends
+.plus_friends{
+    height: 280px; 
+    border-bottom: 1px solid #ebebeb;
+    header{
+        display: flex; 
+        justify-content: space-between;
+        font-size: 16px; 
+        padding: 5px 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ebebeb;
+        span{
+            color: #8e9399;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

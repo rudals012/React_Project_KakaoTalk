@@ -1,0 +1,33 @@
+.more_app{
+    padding: 15px;
+    ul{
+        display: flex; 
+        flex-direction: row;
+        li{
+            width: 75px;
+            a{
+                display: flex; 
+                flex-direction: column;
+                align-items: center; 
+                width: 100%;
+                .app_icon{
+                    display: block; 
+                    width: 44px;
+                    height: 44px; 
+                    margin-bottom: 10px;
+                    background: url(../images/empty.jpg)no-repeat 0 0;
+                    background-size: cover;
+                }
+            }
+            &:nth-child(1) .app_icon{
+                background-image: url(../images/kakaostory.png);
+            }
+            &:nth-child(2) .app_icon{
+                background-image: url(../images/path.png);
+            }
+            &:nth-child(3) .app_icon{
+                background-image: url(../images/kakaofriends.png);
+            }
+        }
+    }
+}

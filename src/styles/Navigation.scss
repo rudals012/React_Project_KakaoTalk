@@ -1,0 +1,91 @@
+.tab_bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4.5%;
+    border-top: 1px solid #c1c1c1;
+    background-color: #f7f7f7;
+    min-height: 54px;
+    ul {
+      display: flex;
+      margin-top: 10px;
+      li {
+        color: #c0c1c2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        text-align: center;
+        transition: transform 500ms linear 0s;
+        .tab_bar_link {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: #c0c1c2;
+        }
+        .tab_bar_icon {
+          color: #c0c1c2;
+          display: block;
+          font-size: 22px;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+        /* 선택 된 탭바 */
+        a.active {
+          color: #513736;
+          * {
+            color: #513736;
+          }
+        }
+      }
+    }
+  }
+
+
+// .tab_bar{
+//     position: fixed; 
+//     left: 0; 
+//     bottom: 0;
+//     width: 100%; 
+//     height: 6.4%;
+//     min-height: 54px; 
+//     border-top: 1px solid #c1c1c1;
+//     background-color: #f7f7f7;
+//     ul{
+//         display: flex; 
+//         flex-direction: row; 
+//         margin-top: 6px;
+//         li{
+//             flex: 1; 
+//             text-align: center;
+//             transition: transform 500ms linear 0s;
+//             color: #c0c1c2; 
+//             align-items: center;
+//             display: flex;
+//             justify-content: center;
+//             .tab_bar_link {
+//                 display: flex;
+//                 flex-direction: column;
+//                 align-items: center;
+//                 color: #c0c1c2;
+//             }
+//             .icon{
+//                 display: block; 
+//                 font-size: 22px;
+//                 height: 24px;
+//                 color: #c0c1c2;
+//             }
+//             &:hover{
+//                 transform: scale(1.1);
+//             }
+//             a.active {
+//                 color: #513736;
+//                 * {
+//                   color: #513736;
+//                 }
+//             }
+//         }
+//     }
+// }

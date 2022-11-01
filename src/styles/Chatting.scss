@@ -1,0 +1,99 @@
+.chatting{
+    height: 100vh;
+    background-color: #a1c0d5;
+    Header{
+        background-color: #a1c0d5;
+        color: #000;
+    }
+    .title_bar{
+        background-color: #a1c0d5;
+        color: #000;
+        border-bottom: 1px solid #96acba;
+        .icon{
+            color: #000;
+        }
+        .left_item{
+            .icon{
+                font-size: 22px;
+            }
+        }
+        .right_item{
+            .icon{
+                font-size: 16px;
+                margin-left: 5px;
+            }
+        }
+    }
+    main{
+        display: flex; 
+        flex-direction: column;
+        height: calc(100% - 109px); 
+        padding-top: 64px;
+        background: #a1c0d5;
+        .date_info{
+            opacity: 0.5; 
+            text-align: center;
+            margin: 10px;
+        }
+        .chat_box{
+            display: inline-flex; 
+            flex-direction: column;
+            align-items: flex-start;
+            width: fit-content; 
+            max-width: calc(100% - 80px);
+            position: relative;
+            .chat{
+                font-size: 16px; 
+                line-height: 1; 
+                margin: 5px;
+                padding: 10px 5px; 
+                border-radius: 5px; 
+                background: #fff;
+            }
+        }
+        .my{
+            align-self: flex-end; 
+            align-items: flex-end; 
+            max-width: 240px; 
+            margin-right: 10px;
+            .chat{
+                background: #ffe73a;
+            }
+            .chat_time{
+                position: absolute; 
+                left: 10px;
+                bottom: 5px; 
+                width: 50px; 
+                opacity: 0.5;
+            }
+        }
+        .other{
+            margin-left: 55px; 
+            margin-top: 20px;
+            .profile_img{
+                position: absolute; 
+                left: -55px; 
+                top: -5px;
+                width: 35px; 
+                height: 35px;
+            }
+            .profile_name{
+                display: block; 
+                font-weight: bold;
+                margin: 5px;
+            }
+            .chat_time{
+                position: absolute; 
+                right: 98px;
+                bottom: 5px; 
+                width: 50px; 
+                opacity: 0.5;
+            }
+        }
+        .new{
+            margin-top: 40px;
+        }
+    }
+}
+
+

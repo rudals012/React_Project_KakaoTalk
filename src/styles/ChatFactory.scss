@@ -1,0 +1,49 @@
+.factoryForm{
+    display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        position: fixed; 
+        left: 0; 
+        bottom: 0; 
+        width: 100%;
+        height: 45px; 
+        background: #eee;
+    .factoryInput__label{
+        color: #b3b4b4; 
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 15px;
+        margin-right: 10px;
+    }
+    .attach_file{
+        width: 0;
+        height: 0;
+    }
+    .factoryInput__container{
+        width: 100%;
+        height: 30px;
+        display: flex; 
+        justify-content: flex-end;
+        .factoryInput__input{
+            position: relative; 
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            text-indent: 10px;
+            margin-right: 20px;
+        }
+        .factoryInput__arrow{
+            border-radius: 50%;
+            border: 1px solid #666;
+            width: 30px;
+            cursor: pointer;
+            background-color: #ffe73a;
+            margin-right: 15px;
+        }
+    }
+
+  
+}

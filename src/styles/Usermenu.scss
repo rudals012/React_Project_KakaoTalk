@@ -1,0 +1,29 @@
+.user_menu{
+    height: 125px; 
+    border-bottom: 1px solid #ebebeb;
+    ul{
+        display: flex; 
+        flex-direction: row;
+        align-items: center; 
+        height: 100%;
+        li{
+            overflow: hidden; 
+            flex: 1;
+            a{
+                display: flex; 
+                flex-direction: column;
+                align-items: center; 
+                color: #513736;
+                font-weight: bold; 
+                transition: transform 300ms linear 0s;
+                &:hover{
+                    transform: scale(1.05);
+                }
+                .icon{
+                    font-size: 30px; 
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
