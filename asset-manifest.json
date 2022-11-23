@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Kakao_app_firebase/static/css/main.4ea75fd2.css",
-    "main.js": "/Kakao_app_firebase/static/js/main.26ba5a03.js",
-    "static/media/kakaofriends.png": "/Kakao_app_firebase/static/media/kakaofriends.84375bb9f89d79ccd760.png",
-    "static/media/path.png": "/Kakao_app_firebase/static/media/path.7d00edf73f07bdcecc6d.png",
-    "static/media/kakaostory.png": "/Kakao_app_firebase/static/media/kakaostory.572f3ce5bf10fbdaac9d.png",
-    "index.html": "/Kakao_app_firebase/index.html",
-    "main.4ea75fd2.css.map": "/Kakao_app_firebase/static/css/main.4ea75fd2.css.map",
-    "main.26ba5a03.js.map": "/Kakao_app_firebase/static/js/main.26ba5a03.js.map"
+    "main.css": "/React_Project_KakaoTalk/static/css/main.6eaefae7.css",
+    "main.js": "/React_Project_KakaoTalk/static/js/main.f8c9e212.js",
+    "static/media/kakaofriends.png": "/React_Project_KakaoTalk/static/media/kakaofriends.84375bb9f89d79ccd760.png",
+    "static/media/path.png": "/React_Project_KakaoTalk/static/media/path.7d00edf73f07bdcecc6d.png",
+    "static/media/kakaostory.png": "/React_Project_KakaoTalk/static/media/kakaostory.572f3ce5bf10fbdaac9d.png",
+    "index.html": "/React_Project_KakaoTalk/index.html",
+    "main.6eaefae7.css.map": "/React_Project_KakaoTalk/static/css/main.6eaefae7.css.map",
+    "main.f8c9e212.js.map": "/React_Project_KakaoTalk/static/js/main.f8c9e212.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ea75fd2.css",
-    "static/js/main.26ba5a03.js"
+    "static/css/main.6eaefae7.css",
+    "static/js/main.f8c9e212.js"
   ]
 }
