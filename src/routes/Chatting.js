@@ -55,9 +55,9 @@ function Chatting({userObj}) {
       <main>
         <span className='date_info'>Monday,October 17, 2022</span>
         <div className='chat_box my'>
-          <span className='chat'>Hello!</span>
           <span className='chat'>Hello! This is a test message.</span>
           <span className='chat'>This is a test message.</span>
+          <span className='chat'>Hello!</span>
           <span className='chat_time'><span>1</span>:<span>30</span></span>
         </div>
         <div className='chat_box other'>
@@ -67,7 +67,7 @@ function Chatting({userObj}) {
           </div>
           <span class="chat">And this is an answer</span>
           <span class="chat">And this is an answer And this is an answer</span>
-          <span class="chat">And this is an answer</span>
+          <span class="chat">Bye!</span>
           <span class="chat_time">{time}</span>
         </div>
         <div className='chat_box my new'>
