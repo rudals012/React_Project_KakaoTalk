@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React_Project_KakaoTalk/static/css/main.6eaefae7.css",
-    "main.js": "/React_Project_KakaoTalk/static/js/main.f8c9e212.js",
+    "main.css": "/React_Project_KakaoTalk/static/css/main.a976e443.css",
+    "main.js": "/React_Project_KakaoTalk/static/js/main.92adfab7.js",
     "static/media/kakaofriends.png": "/React_Project_KakaoTalk/static/media/kakaofriends.84375bb9f89d79ccd760.png",
     "static/media/path.png": "/React_Project_KakaoTalk/static/media/path.7d00edf73f07bdcecc6d.png",
     "static/media/kakaostory.png": "/React_Project_KakaoTalk/static/media/kakaostory.572f3ce5bf10fbdaac9d.png",
     "index.html": "/React_Project_KakaoTalk/index.html",
-    "main.6eaefae7.css.map": "/React_Project_KakaoTalk/static/css/main.6eaefae7.css.map",
-    "main.f8c9e212.js.map": "/React_Project_KakaoTalk/static/js/main.f8c9e212.js.map"
+    "main.a976e443.css.map": "/React_Project_KakaoTalk/static/css/main.a976e443.css.map",
+    "main.92adfab7.js.map": "/React_Project_KakaoTalk/static/js/main.92adfab7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eaefae7.css",
-    "static/js/main.f8c9e212.js"
+    "static/css/main.a976e443.css",
+    "static/js/main.92adfab7.js"
   ]
 }
